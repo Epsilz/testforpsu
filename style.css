@@ -1,0 +1,66 @@
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+main{
+    display:flex;        
+    align-items: center;    
+    justify-content: center;
+    /* outline: dashed 1px red; */
+    height:100vh;
+}
+#box-el{
+    width: 481px;
+    height: 392px;     
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    background: #F7F5F9;
+    border-radius: 12px;  
+}
+form {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;    */
+    border-radius: 6px;
+    width:401px;
+    height: 48px;
+}
+input{
+    margin-left:40px;
+    border:0;        
+    Width: 401px;
+    line-height:48px;   
+    border-radius: 6px;       
+}
+input[type=submit]
+{
+    color:white;
+    background: #6979F8;
+    font-size:17px;
+    font-weight:400;          
+}
+input[type=text]{
+    background: white;  
+    font-size:15px;  
+    text-indent: 15px; 
+}
+input[type=email]{
+    background: white;  
+    font-size:15px;  
+    text-indent: 15px; 
+}
+input[type=tel]
+{
+    background: white; 
+    font-size:15px;  
+    text-indent: 15px; 
+}
+h1{    
+    width:175px; 
+    line-height:30px;     
+    font-weight:700;
+    font-size:24px;    
+    margin:30px 273px 25px 40px;   
+    /* Текст переносится. Чтобы не переносился использую свойства ниже */
+    white-space: nowrap;
+    overflow: hidden;
+}
